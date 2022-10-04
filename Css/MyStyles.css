@@ -1,0 +1,774 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+
+*
+{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    overflow-y: auto;
+
+}
+.input_a
+{
+    font-size: 24px;
+    height: 38px;
+    width: 200px;
+    border-radius: 8px;
+}
+.conteudo
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.SbBody
+{
+    font-size: 100%;
+    background:#fcf9f6;
+    padding-bottom: 110px;
+}
+.SbBodyL
+{
+    font-size: 100%;
+    background:#ffffff;
+    padding-bottom: 40px;
+}
+
+.Cabecalho
+{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+    background:  #2b2c2b;
+    margin-bottom: 10px;
+}
+
+.ImgLogo
+{
+    height: 75px;
+    width: 180px;
+}
+.DivNav
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.TextoNav
+{
+
+    font-family: 'Sarala', sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+.TextoNav:hover
+{
+
+    color: rgba(236, 214, 196, 0.53);
+    cursor: pointer;
+
+}
+
+.Conteudo
+{
+    display: flex;
+    justify-content:center;
+    margin-bottom: 6px;
+    border-top: 0.8px solid #FFF2E7;
+
+}
+
+.DivSec
+{
+    background: #90EE90;
+    width: 80%;
+    border-radius: 30px;
+    align-content: center;
+
+}
+
+.Section
+{  
+    
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.ItemConteudo
+{
+
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+
+.SectTitulo
+{
+
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFF2E7;
+}
+
+.ConteudoTextoPadrao
+{
+
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+
+}
+
+.ButtonLer
+{
+
+    background-color: #ECD6C4;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow:5px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-size: 18px;
+    color:#2F2325;
+
+}
+
+.ButtonLer:hover
+{
+
+    background-color: rgba(236, 214, 196, 0.53);
+    cursor: pointer;
+
+}
+
+.ImgConteudo
+{
+
+    height: 160px;
+    width: 195px;
+    background-color: #FFF2E7;
+    border-radius: 20px;
+    border: 2px solid greenyellow;
+
+}
+
+.ImgConteudo2
+{
+
+    height: 160px;
+    width: 195px;
+    background-color: #FFF2E7;
+    border-radius: 20px;
+    border: 2px solid greenyellow;
+
+}
+
+.Rodape
+{
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    background:  #2b2c2b;
+    font-family: 'Sarala', sans-serif;
+    text-align: center;
+    color: #ffffff;
+}
+
+.TextoSobre
+{
+
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+
+}
+
+.SubTitulo
+{
+
+    font-family: 'Sarala', sans-serif;
+    background-color: 	#696969;
+    color: #FFF2E7;
+    border-radius: 4px;
+
+}
+
+.Cabecalho2
+{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    background:  #228B22;
+
+}
+
+.DivSec2
+{
+    display: flex;
+    background: #90EE90;
+    width: 60%;
+    border-radius: 30px;
+    flex-direction: column;
+    
+
+}
+
+.SbBody2
+{
+
+    font-size: 100%;
+    background:#FFF2E7;
+    padding-bottom: 90px;
+
+}
+
+.SectTitulo2
+{
+    
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFF2E7;
+    background: #1C1C1C;
+    margin-bottom: 10px;
+
+}
+
+.ItemConteudo2
+{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.Tab
+{
+    font-family: 'Sarala', Arial, sans-serif;
+    border-collapse: collapse;
+    margin: auto;
+}
+.Th
+{ 
+    font-weight: 100;
+    text-align: center;
+    padding-right: 50px;
+    background-color: #0f0f0f;
+    color: white;
+}
+.Thl
+{
+    font-weight: 100;
+    text-align: center;
+    border-top-left-radius: 6px;
+    background-color: #0f0f0f;
+    color: white;
+}
+.Thr
+{
+    font-weight: 100;
+    text-align: center;
+    border-top-right-radius: 6px;
+    background-color: #0f0f0f;
+    color: white;
+}
+.td
+{
+    padding-left: 5px;
+    padding-right: 15px;
+    background-color: rgb(235, 235, 235);
+}
+.td2
+{
+    background-color: rgb(235, 235, 235);
+}
+.Buttons
+{
+    margin: 10px;
+    padding: 6px 6px;
+    border-radius: 8px;
+    background-color: transparent;
+    font-weight: 600;
+    background-color: darkgreen;
+    color: white;
+    text-transform: uppercase;
+    transition: background 1s;
+    border: transparent;
+
+}
+.Buttons:hover
+{
+    background-color: rgb(3, 190, 3);
+    cursor: pointer;
+}
+.ButtonsB
+{
+    padding: 5px 5px;
+    margin-right: 5px;
+    border-radius: 8px;
+    background-color: transparent;
+    font-weight: 600;
+    background-color: darkred;
+    color: white;
+    text-transform: uppercase;
+    transition: background 1s;
+    border: transparent;
+}
+.ButtonsB:hover
+{
+    background-color: rgb(235, 0, 0);
+    cursor: pointer;
+}
+.ButtonsA
+{
+    padding: 5px 5px;
+    margin-right: 5px;
+    border-radius: 8px;
+    background-color: transparent;
+    font-weight: 600;
+    background-color: rgb(71, 71, 182);
+    color: white;
+    text-transform: uppercase;
+    transition: background 1s;
+    border: transparent;
+}
+.ButtonsA:hover
+{
+    background-color: rgb(125, 125, 255);
+    cursor: pointer;
+}
+.edit
+{
+    width: 18px;
+    height: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.excluir
+{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.add
+{
+    width: 26px;
+    height: 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Senha
+{
+    border-radius: 20px;
+    border: transparent;
+}
+.contlog
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.Login
+{
+    background-color: rgb(22, 22, 22);
+    border: rgb(24, 24, 24) 1px solid;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 450px;
+    width: 400px;
+    font-size: 18px;
+    font-family: 'Sarala', Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.DivForm
+{
+    padding-top: 12px;
+    width: 100%;
+    height: 90%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.BtnLogin
+{  
+    padding: 10px 18px;
+    border-radius: 10px;
+    background-color: transparent;
+    font-weight: 450;
+    background-color: rgb(2, 124, 2);
+    color: white;
+    text-transform: uppercase;
+    transition: background 1s;
+    border: transparent;
+}
+.BtnLogin:hover
+{
+    background-color: rgb(26, 182, 5);
+    cursor: pointer;
+}
+.TextBtn
+{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.lembralogin
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 10px;
+    gap: 10px;
+}
+.inputcheck
+{
+    font-size: 80px;
+}
+.TituloCLT
+{
+    text-align: center;
+}
+.AddCl
+{
+    font-family: 'Sarala', Arial, sans-serif;
+    display: flex;
+    flex-direction: row;  
+    align-items: center;
+    padding-bottom: 5px;
+    gap: 10px;
+    /*margin: 0 auto;
+    width: 58%;*/
+}
+.cntadd
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    gap: 4px;
+}
+.ImgConfig
+{
+    height: 25px;
+    width: 25px;
+}
+.ContSobre
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.DescSobre
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 12px 12px 12px 12px;
+}
+.DescSobre h1
+{
+    font-size: 40px;
+    font-family: 'Righteous', cursive;
+}
+.DescSobre p
+{
+    font-size: 20px;
+    font-family: 'Righteous', cursive;
+}
+.DescSobre h3
+{
+    font-size: 24px;
+    font-family: 'Righteous', cursive;
+    padding-bottom: 8px;
+    border-bottom: 1.8px solid black;
+}
+.DescSobre a, li
+{
+    font-family: 'Sarala', Arial, sans-serif;
+    font-weight: 600;
+}
+.UlSobre
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 18px;
+}
+.EsqSenha
+{
+    font-size: 14px;
+    color: black;
+}
+.EsqSenha:hover
+{
+    font-size: 14px;
+    color: rgb(145, 145, 145);
+}
+.Git
+{
+    height: 28px;
+    width: 28px;
+}
+.Link
+{
+    height: 28px;
+    width: 28px; 
+}
+.BtLink
+{
+    border: none;
+}
+.BtGit
+{
+    border: none;
+}
+.BtLink:hover
+{
+    cursor: pointer;
+}
+.BtGit:hover
+{
+    cursor: pointer;
+}
+.DivGit
+{   
+    font-size: 14px;
+}
+.DivGitLi
+{   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.DivLink
+{
+    font-size: 14px;
+}
+.DivLinkLi
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.ImgLg
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    filter: blur(2px);
+    /*backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(8px);
+    -moz-backdrop-filter: blur(8px);*/
+}
+.DivMenu
+{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.ConteudoCad
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Sarala', Arial, sans-serif;
+}
+.ConteudoCadB
+{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    gap: 30px;
+}
+.CadLb
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.CadInp
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.DivRadio
+{
+    display: flex;
+    flex-direction: row;
+    gap: 198px;
+}
+.CRadio
+{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.DivNC
+{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+.DivNasc
+{
+    display: flex;
+    flex-direction: row;
+    gap: 145px;
+}
+.DivTel
+{
+    display: flex;
+    flex-direction: row;
+    gap: 170px;
+}
+.DivEmail
+{
+    display: flex;
+    flex-direction: row;
+    gap: 195px;
+}
+.DivRg
+{
+    display: flex;
+    flex-direction: row;
+    gap: 220px;
+}
+.DivCPF
+{
+    display: flex;
+    flex-direction: row;
+    gap: 215px;
+}
+.DivEst
+{
+    display: flex;
+    flex-direction: row;
+    gap: 220px;
+}
+.DivRua
+{
+    display: flex;
+    flex-direction: row;
+    gap: 205px;
+}
+.DivBairro
+{
+    display: flex;
+    flex-direction: row;
+    gap: 185px;
+}
+.DivNR
+{
+    display: flex;
+    flex-direction: row;
+    gap: 115px;
+}
+.DivTlCad
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.DivBtn
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.BtnCad
+{
+    background-color: #228B22;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.BtnCad:hover
+{
+    background-color: #3feb3f;
+    color: rgb(0, 0, 0);
+}
+.Popup
+{
+    width: 400px;
+    background-color: #f3f0ed;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #0f0f0f;
+}
+.Popup img
+{
+    width: 100px;
+    margin-top: -50%;
+    border-radius: 50%;
+}
+.Popup h2
+{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+.Popup button
+{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0; 
+    background-color: #228B22;
+    border: 0;
+    outline: none;
+    border-radius: 4px;
+   cursor: pointer;
+   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+   visibility: visible;
+   transform: translate(transform 0.4s, top 0.4s);
+}
+
+.OpenPopup
+{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+} 

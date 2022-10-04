@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Um Bot que irá moderar e deixar a sua comunidade">
+        <link rel="stylesheet" type="text/css" href="../Css/MyStyles.css">
+        <link rel="icon" class="ico" type="image/png" href="../Imagens/Logo.png"/>
+        <title>WK Informática</title>
+    </head>
+        
+    <body class="SbBody">
+        
+          
+        <header class="Cabecalho">
+            <div>
+                <img class="ImgLogo" src="../Imagens/Logo2Edit.png" alt="Imagem Logo">
+            </div>
+            <div class="DivNav">
+                <div class="DivNav">
+                    <nav class="Navegacao">
+                        <ul class="DivMenu">
+                            <li><a href="Index.html" class="TextoNav">Cadastro</a></li>
+                            <li><a href="Clientes.html" class="TextoNav">Clientes</a></li>
+                            <li><a href="Sobre.html" class="TextoNav">Sobre</a></li>                     
+                            <li><a href="Login.html" class="TextoNav">Logout</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <h1 class="TituloCLT">Clientes</h1>
+        <div class="conteudo">     
+            <div>
+                <table class="Tab">
+                    <!--<div class="Popup" id="Popup">
+                        <h2>Teste</h2>
+                        <p>teste teste teste teste</p>
+                        <p>teste teste teste teste</p>
+                        <p>teste teste teste teste</p>
+                        <p>teste teste teste teste</p>
+                        <button type="button" onclick="ClosePopup()">Ok</button>
+                    </div>-->
+                    <div class="AddCl">       
+                        <div class="cntadd">
+                            <button type="submit" class="ButtonsA" onclick="OpenPopup()"><img class="edit" src="../Icones/AdicionarWhite.png"/></button>
+                            <h3>Adicionar Cliente</h3>
+                        </div>
+                    </div>
+                    <tr>
+                        <th class="Thl">Nome</th>
+                        <th class="Th">RG</th>
+                        <th class="Th">CPF</th>
+                        <th class="Th">Rua</th>
+                        <th class="Th">Bairro</th>
+                        <th class="Th">Número</th>
+                        <th class="Thr">Ações</th>
+                    </tr>
+                    <tr>
+                        <td class="td">Douglas Oliveira Lima</td>
+                        <td class="td">441222134</td>
+                        <td class="td">385.594.550-00</td>
+                        <td class="td">Parque América</td>
+                        <td class="td">São Luiz</td>
+                        <td class="td">5000</td>
+                        <td class="td2"><button class="Buttons"><img class="edit" src="../Icones/EditarWhite.png"/></button><button class="ButtonsB"><img class="excluir" src="../Icones/ExcluirWhite.png"/></button></td>
+                    </tr>     
+                    <tr>
+                        <td class="td">Willian Arruda Moraes da Cruz</td>
+                        <td class="td">547660662</td>
+                        <td class="td">433.925.698-60</td>
+                        <td class="td">Av Sete Quedas</td>
+                        <td class="td">Progresso</td>
+                        <td class="td">1100</td>
+                        <td class="td2"><button class="Buttons"><img class="edit" src="../Icones/EditarWhite.png"/></button><button class="ButtonsB"><img class="excluir" src="../Icones/ExcluirWhite.png"/></button></td>
+                    </tr>     
+                    <tr>
+                        <td class="td">Nilson Corrêa Melo</td>
+                        <td class="td">547598662</td>
+                        <td class="td">433.963.698-60</td>
+                        <td class="td">Horizonte</td>
+                        <td class="td">Ice</td>
+                        <td class="td">2547</td>
+                        <td class="td2"><button class="Buttons"><img class="edit" src="../Icones/EditarWhite.png"/></button><button class="ButtonsB"><img class="excluir" src="../Icones/ExcluirWhite.png"/></button></td>
+                    </tr> 
+                </table>
+            </div>
+            <div>
+            </div>
+        </div>
+        <footer class="Rodape">
+            <a class="TextoFooter">Copyright © 2022 WillKratCruz</a>
+        </footer>
+        <script>
+        let Popup = document.getElementById("Popup");
+
+function OpenPopup()
+{
+    Popup.classList.add("OpenPopup");
+}
+function ClosePopup()
+{
+    Popup.classList.remove("OpenPopup");
+}
+</script>
+    </body>
+   
+</html>
